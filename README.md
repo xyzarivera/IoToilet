@@ -35,11 +35,14 @@ Schematic diagrams and breadboard prototype can be found in this folder
 ## Getting Started
 Full documentation on Getting Started here.
 1. Clone or Download the IoToilet Github repository
-2. Build your IoToilet circuit based on the schematic diagram.
-3. Install the Arduino IDE and the ESP8266 Libraries.
-4. Test the light-dependent comparator circuit and adjust your threshold using the potentiometer.
-5. Create your own IoToilet Twitter account. 
-6. Build your IFTTT Applet and connect it to your Twitter account.
+2. Build your IoToilet circuit
+3. Test the light-dependent comparator circuit
+4. Create your own IoToilet Twitter account
+5. Build your IFTTT Applet
+6. Upload the IoToilet.ino file to the ESP8266
+
+## License
+GNU Affero General Public License v3.0
 
 ## To-dos
  - Design a proper power supply circuit
