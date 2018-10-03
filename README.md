@@ -41,9 +41,6 @@ Full documentation on Getting Started here.
 5. Create your own IoToilet Twitter account. 
 6. Build your IFTTT Applet and connect it to your Twitter account.
 
-## License
-GNU Affero General Public License v3.0
-
 ## To-dos
  - Design a proper power supply circuit
  - Enable Sleep mode
