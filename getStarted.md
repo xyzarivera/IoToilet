@@ -40,26 +40,33 @@ Time to give your IoToilet its own Twitter handle!
 ## Build your IFTTT Applet
 You can also read the short turtorial created by IFTTT [here](https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-).
 1. Go to IFTTT.com and create your account
+
    ![IFTTT](/docs/images/1.PNG)
 2. We will create a New Applet. An Applet connects two or more apps or devices together. It is similar to an API in software development. You can read more about Applets [here](https://help.ifttt.com/hc/en-us/articles/115010361348-What-is-an-Applet-)On the upper-right side of the website, click on the down arrow and choose `New Applet` and you will be directed to a new screen
+   
    ![New Applet](/docs/images/2.PNG)
 3. Choose the Service that will cause the trigger. Click the blue `+this`.
     * Choose/find the `Webhooks` Service.
     * Choose the `Receive a web request` trigger
     * Type `Maker_Event` as the Event Name
     * Click `Create Trigger`
+    
     ![IFTTT](/docs/images/3.PNG)
 4. Choose the Action Service. Click the blue `+that`.
     * Choose/find the `Twitter` Service
     * Choose the `Post a tweet` action
     * Type `*Test* The {{Value1}} Comfort Room is {{Value2}}. {{OccurredAt}}` in the Tweet text box
     * Click Create Action
+   
    ![IFTTT](/docs/images/5.PNG)
 5. Click Finish. You will be directed to your Applet's summary. You can still update your applet by clicking the gear icon on the upper-left side.
+   
    ![IFTTT](/docs/images/6.PNG)
 6. Go to the [Webhooks](https://ifttt.com/maker_webhooks) page to get your Maker Key. You will need this in the succeeding step. Click on the Setting button.
+   
    ![IFTTT](/docs/images/7.PNG)
     * Copy the key from the last section of the URL. Do not give this key to others
+      
       ![IFTTT](/docs/images/8.PNG)
 ## Upload the IoToilet.ino file to the ESP8266
 To program the ESP8266, you will need to install the [Arduino Desktop IDE](https://www.arduino.cc/en/Main/Software) . To connect the ESP to your computer, you’ll need a [CP2102](https://www.sparkfun.com/datasheets/IC/cp2102.pdf) USB to Serial converter. It can provide power also to the board while testing.
