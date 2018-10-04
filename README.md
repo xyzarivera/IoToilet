@@ -1,6 +1,7 @@
 # IoToilet
 
 The Internet of our Toilet
+
 IoToilet is a side project using the ESP-12 as a microcontroller, currently on its first iteration.
 The idea was conceived from irritating inconvenience of standing up just to check the availability of the office comfort room. There were instances that the door was unlocked by a key from the outside even if the comfort room was occupied. The lack of an occupancy indicator is the cause of this dilemma. Thus, the IoToilet is born!
 
@@ -40,9 +41,6 @@ Full documentation on Getting Started here.
 4. Create your own IoToilet Twitter account
 5. Build your IFTTT Applet
 6. Upload the IoToilet.ino file to the ESP8266
-
-## License
-GNU Affero General Public License v3.0
 
 ## To-dos
  - Design a proper power supply circuit
