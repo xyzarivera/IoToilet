@@ -8,7 +8,7 @@ const char* password = "wifi password";
 // IFTTT setup
 const char *host = "maker.ifttt.com";
 const char *Maker_Event = "Maker_Event";
-const char *Your_Key = "Your_Key";
+String Your_Key = "Your_Key";
 String CRloc = "Your Location";
 
 // Assign output variables to GPIO pins
