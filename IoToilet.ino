@@ -104,7 +104,7 @@ void sendTweet(int State) {
 
   // create URL request
   // https://maker.ifttt.com/trigger/IoToilet_tweet/with/key/Your_Key/?value1=LG&value2=unoccupied
-  String url = "/trigger/IoToilet_tweet/with/key/" +Your_Key + "/?value1=" + CRloc + "&value2=" + printState;
+  String url = "/trigger/"+ Maker_Event +"/with/key/" +Your_Key + "/?value1=" + CRloc + "&value2=" + printState;
   Serial.print("Requesting URL: ");
   Serial.println(url);
 
